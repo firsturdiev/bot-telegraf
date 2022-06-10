@@ -2,10 +2,10 @@
   "name": "bot-template",
   "version": "1.0.0",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/bot.js",
-    "start": "node src/bot.js"
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,10 @@
     "nodemon": "^2.0.16"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
+    "knex": "^2.1.0",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
     "telegraf": "^4.8.3",
     "telegraf-i18n": "^6.6.0"
   }
